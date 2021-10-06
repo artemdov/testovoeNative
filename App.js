@@ -1,22 +1,17 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import Router from './src/navigation/Router';
+import {Router} from './src/navigation/Router';
 
-const App = () => {
+export const App = () => {
   return (
-    <SafeAreaView style={styles.screen}>
+    <SafeAreaView style={styles.screenContainer}>
       <Router />
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  screen: {
-    backgroundColor: '#8a2be2',
-    fontWeight: '700',
-    width: '100%',
-    height: '100%',
+  screenContainer: {
+    flex: 1,
   },
 });
-
-export default App;

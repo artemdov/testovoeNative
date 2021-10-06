@@ -2,10 +2,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {AppStack} from './AppStack';
 
-const Router = () => (
+export const Router = () => (
   <NavigationContainer>
     <AppStack />
   </NavigationContainer>
 );
-
-export default Router;
