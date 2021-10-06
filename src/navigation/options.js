@@ -26,5 +26,3 @@ export const medicationTitleOptions = {
   headerShown: false,
   tabBarLabel: 'Medication',
 };
-
-export const withoutHeader = () => ({headerShown: false});
